@@ -3,7 +3,31 @@
 }
 
 body {
-    margin:0;
+    margin: 30px;
     font-family: sans-serif;
     background-color: bisque;
+}
+
+p {
+    font-size: 15px;
+    text-indent: 30px;
+    line-height : 20px;
+}
+
+
+.intro, h3 {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    background-color: #BE8C63;
+    padding: 20px;
+}
+
+.intro img {
+height: 300px;
+}
+
+h1, h2 {
+    color: #2D2424;
+    text-align: center;
 }
